@@ -1,0 +1,4 @@
+applications:
+- name: ruby_concourse_tester
+  command: rackup config.ru -p $PORT
+  memory: 128M
